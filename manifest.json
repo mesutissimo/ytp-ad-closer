@@ -2,7 +2,7 @@
   "name": "Youtube Ad Closer",
   "description": "Close Youtube ads",
   "version": "1.0",
-  "manifest_version": 1,
+  "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
   },
@@ -12,4 +12,5 @@
       "js": ["content.js"]
     }
   ],
-  "permissions": ["storage", "activeTab", "scripting"],
+  "permissions": ["storage", "activeTab", "scripting"]
+}
